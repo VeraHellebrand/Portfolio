@@ -1,0 +1,251 @@
+body {
+  color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first {
+  background-image: url("assets/Picture/bg.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1, .h1,
+h3,
+.h3,
+h2,
+.h2,
+h4,
+.h4,
+h5,
+.h5 {
+  text-align: center;
+}
+
+h2, .h2 {
+  font-family: "Calligraffitti", cursive;
+  font-weight: bold;
+}
+
+h4, .h4 {
+  text-decoration: underline;
+}
+
+h5, .h5 {
+  background-color: rgb(66, 64, 64);
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px;
+}
+
+p {
+  padding: 5px 10px;
+  text-align: 2rem;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 0 15px grey;
+  color: antiquewhite;
+}
+
+.profilovka {
+  border: 2px solid black;
+  background-color: black;
+  width: 100%;
+}
+
+.animatedL {
+  animation: slideIn 2s ease-out forwards;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+}
+.vidim {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Neviditelný na začátku animace */
+  }
+  100% {
+    opacity: 1; /* Plně viditelný na konci animace */
+  }
+}
+.animatedR {
+  animation: slideInR 2s ease-out forwards; /* Definice animace: slideIn, délka 2 sekundy, plynulý konec */
+  opacity: 0; /* Text na začátku neviditelný */
+  transform: translateX(100%); /* Text začíná mimo obrazovku na levé straně */
+}
+
+@keyframes slideInR {
+  0% {
+    opacity: 0; /* Neviditelný na začátku animace */
+    transform: translateX(100%); /* Začátek animace mimo obrazovku na levé straně */
+  }
+  100% {
+    opacity: 0.7; /* Plně viditelný na konci animace */
+    transform: translateX(0); /* Text se posune na svoji pozici */
+  }
+}
+a,
+a:focus,
+a:hover,
+a:active {
+  position: relative;
+  transition: color 1s ease;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  bottom: 0;
+  left: 0;
+  /* animace zleva doprava */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+span {
+  font-size: small;
+  color: blanchedalmond;
+}
+
+.c-main {
+  min-height: 100vh;
+  color: blanchedalmond;
+}
+
+.zajmy p {
+  width: 70%;
+}
+
+summary {
+  position: relative;
+  background-color: wheat;
+  color: black;
+  margin: 5px auto;
+  padding: 5px 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  list-style-type: none;
+  -webkit-clip-path: polygon(0 100%, 3% 0, 100% 0, 97% 100%);
+          clip-path: polygon(0 100%, 3% 0, 100% 0, 97% 100%);
+  transition: all 0.5s ease-out;
+  cursor: crosshair;
+}
+
+summary:hover {
+  text-indent: 15px;
+}
+
+summary::after {
+  content: "+";
+  font-size: 1.5em;
+  position: absolute;
+  color: black;
+  left: 85%;
+  bottom: 5px;
+}
+
+details[open] summary::after {
+  content: "-";
+}
+
+.c-main-end {
+  min-height: 50vh;
+}
+
+.card-body {
+  background-color: grey;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.7;
+  color: whitesmoke;
+  border: 2px solid gray;
+  box-shadow: 0 0 5px;
+}
+
+.btn-send {
+  background-color: transparent;
+  color: grey;
+  border: 3px solid grey;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.btn-send:hover {
+  color: black;
+  background-color: rgb(118, 115, 115);
+}
+
+.project p {
+  font-size: 12px;
+}
+
+address {
+  line-height: 1.5;
+}
+
+.card {
+  position: relative;
+}
+
+.btn-web,
+.btn-gh {
+  border: 3px solid grey;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: rgb(49, 46, 46);
+}
+
+.btn-web:hover,
+.btn-gh:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.btn-web {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-gh {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.email {
+  font-size: small;
+}
+
+#kontakt p {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+<section id="skill" class="section" data-section-name="skills">
+          <h2>{{ "SKILLS" | translate }}</h2>
+          <div class="container">
+                    @for (section of data; track $index) {
+                              <div class="col">
+                                        <h4>{{ section.name | translate }}</h4>
+                                        @for (record of section.data; track $index) {
+                                                  <h5>
+                                                            <span> {{ record.skill }} </span>
+                                                            <img src="{{ record.icon }}" alt="icon">
+                                                  </h5>
+                                        }
+                              </div>
+                    }
+          </div>
+</section>

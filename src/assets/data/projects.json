@@ -1,0 +1,44 @@
+[
+          {
+                    "translate": "PROJECT1",
+                    "img": "../../assets/images/projects/proj1.png",
+                    "git": "https://github.com/VeraHellebrand/Hotel",
+                    "link": "https://helldev.cz/projects/Bootstrap"
+          },
+          {
+                    "translate": "PROJECT2",
+                    "img": "../../assets/images/projects/proj2.png",
+                    "git": "https://github.com/VeraHellebrand/Horal",
+                    "link": "https://helldev.cz/projects/Horal"
+          },
+          {
+                    "translate": "PROJECT3",
+                    "img": "../../assets/images/projects/proj3.png",
+                    "git": "https://github.com/VeraHellebrand/Form",
+                    "link": "https://helldev.cz/projects/Homework"
+          },
+          {
+                    "translate": "PROJECT4",
+                    "img": "../../assets/images/projects/proj4.png",
+                    "git": "https://github.com/VeraHellebrand/BGcolor",
+                    "link": "https://helldev.cz/projects/BGcolor"
+          },
+          {
+                    "translate": "PROJECT5",
+                    "img": "../../assets/images/projects/proj5.png",
+                    "git": "https://github.com/VeraHellebrand/Kolosalon",
+                    "link": "https://helldev.cz/projects/Kolosalon"
+          },
+          {
+                    "translate": "PROJECT6",
+                    "img": "../../assets/images/projects/proj6.png",
+                    "git": "https://github.com/VeraHellebrand/Fish",
+                    "link": "https://helldev.cz/projects/Fish"
+          },
+          {
+                    "translate": "PROJECT7",
+                    "img": "../../assets/images/projects/proj7.png",
+                    "git": "https://github.com/VeraHellebrand/Knihy",
+                    "link": "https://helldev.cz/projects/php/dbKnih.php"
+          }
+]

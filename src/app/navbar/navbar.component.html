@@ -1,0 +1,27 @@
+<mat-toolbar class="nav">
+          <div class="navigation">
+                    <a class="navbar-brand" href="#">
+                              <img src="../../assets/images/favico.ico" height="20px" width="auto" alt="">
+                              <span>Helldev</span>
+                    </a>
+                    @if (isSmallScreen) {
+                    <button class="navbar-toggler" type="button" mat-button [matMenuTriggerFor]="menu">
+                              <mat-icon>menu</mat-icon>
+                    </button>
+                    }
+                    @if (!isSmallScreen) {
+                    <div class="navbar-nav">
+                              <a href="#skills">Dovednosti</a>
+                              <a href="#projects">Projekty</a>
+                              <a href="#hobbies">Zájmy</a>
+                              <a href="#contact">Kontakt</a>
+                    </div>
+                    }
+                    <mat-menu #menu="matMenu">
+                              <a mat-menu-item href="#skills">Dovednosti</a>
+                              <a mat-menu-item href="#projects">Projekty</a>
+                              <a mat-menu-item href="#hobbies">Zájmy</a>
+                              <a mat-menu-item href="#contact">Kontakt</a>
+                    </mat-menu>
+          </div>
+</mat-toolbar>

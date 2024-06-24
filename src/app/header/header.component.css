@@ -1,0 +1,59 @@
+header {
+  max-height: 90vh;
+  background-image: url("../../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding: 8pt;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.language {
+  float: right;
+}
+
+.hrow {
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hcol {
+  flex: 1 1 30%;
+  padding: 5pt;
+}
+
+@media (min-width: 900px) {
+  .hcol {
+    flex: 1 1 30%;
+  }
+}
+
+@media (max-width: 880px) {
+  .hcol {
+    flex: 1 1 100%;
+  }
+}
+
+.profile {
+  width: 100%;
+  border: 2px solid black;
+  background-color: black;
+}
+
+/* REFACTOR - je treba upravit pred pouzitim light rezimu */
+p {
+  padding: 5px 10px;
+  text-align: 2rem;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 0 15px grey;
+  color: antiquewhite;
+}
+

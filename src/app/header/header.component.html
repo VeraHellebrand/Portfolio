@@ -1,0 +1,20 @@
+<header class="section" id="header" data-section-name="home">
+  <app-language-chooser class="language"></app-language-chooser>
+  <img src="../../assets/images/logo.png" alt="logo" height="35px" width="35px">
+  <br />
+  <span class="logo">HellDev</span>
+  <h1>{{ "MAINHEADING" | translate }}</h1>
+  <h2>{{ 'WELCOME' | translate }}</h2>
+  <div class="hrow">
+    <div class="hcol">
+      <p @slideL>{{ "ABOUT" | translate }}</p>
+      <p @slideL>{{ "MOTTO" | translate }}</p>
+    </div>
+    <div class="hcol">
+      <img class="profile" @fade src="../../assets/images/profil.jpg">
+    </div>
+    <div class="hcol">
+      <p @slideR>{{ "WHATCANIOFFER" | translate }}</p>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,65 @@
+{
+          "MAINHEADING": "Portfolio",
+          "WELCOME": "Srdečně Vás vítám",
+          "ABOUT": "Jmenuji se Věrka. Svět IT mě vždy lákal. Mým snem je nabrat zkušenosti v oboru a vypracovat se na fullstack developer.",
+          "MOTTO": "\"Nikdy není pozdě začít být tím, kým jste mohli být.\" - George Eliot",
+          "WHATCANIOFFER": "Co mohu nabídnout? Pohodovou povahu, týmového ducha, chuť neustále se rozvíjet, smysl pro detail a spoustu dalšího.",
+          "SKILLS": "Dovednosti",
+          "FRONT":"Frontend",
+          "BACK":"Backend",
+          "DATABASES":"Databáze",
+          "APPS":"Apliakce",
+          "OTHER":"Ostatní",
+          "FRAMEWORK":"Framework",
+          "PROJECTS": "Projekty",
+          "PROJECT1": {
+                    "NAME":"Bootstrap",
+                    "DESCRIPTION": [
+                              "Cvičeni s časovým limitem 8 hodin",
+                              "HTML5, CSS3, Bootstrap"
+                    ] 
+          },
+          "PROJECT2": {
+                    "NAME":"Bootstrap",
+                    "DESCRIPTION": [
+                              "Cvičeni s časovým limitem 8 hodin",
+                              "HTML5, CSS3, Bootstrap"
+                    ] 
+          },
+          "PROJECT3": {
+                    "NAME":"React",
+                    "DESCRIPTION": [
+                              "Domací úkol",
+                              "Zpracování a propojování komponent",
+                              "React, JavaScript, HTML5"
+                    ] 
+          },
+          "PROJECT4": {
+                    "NAME":"JavaScript",
+                    "DESCRIPTION": [
+                              "Výpis nahodné barvy v RGB či Hexakódu",
+                              "HTML5, CSS3, JavaScript"
+                    ] 
+          },
+          "PROJECT5": {
+                    "NAME":"JavaScript",
+                    "DESCRIPTION": [
+                              "Samostatné cvičení s limitem 4.5 hodin",
+                              "HTML5, CSS3, JavaScript"
+                    ] 
+          },
+          "PROJECT6": {
+                    "NAME":"React",
+                    "DESCRIPTION": [
+                              "Samostatné cvičení s limitem 8 hodin",
+                              "React, JavaScript, HTML5, CSS3"
+                    ] 
+          },
+          "PROJECT7": {
+                    "NAME":"PHP",
+                    "DESCRIPTION": [
+                              "Samostatné cvičení s limitem 8 hodin",
+                              "PHP, MySQL, CSS3, HTML5p"
+                    ] 
+          }
+}

@@ -1,0 +1,65 @@
+{
+          "MAINHEADING": "Portfolio",
+          "WELCOME": "Welcome, it’s a pleasure to have you here",
+          "ABOUT": "My name is Věrka. I have always been drawn to the world of IT. My dream is to gain experience in the field and work my way up to becoming a full-stack developer.",
+          "MOTTO": "\"It's never too late to be who you might have been.\" - George Eliot",
+          "WHATCANIOFFER": "I can offer an easygoing nature, a strong team spirit, a drive for continuous development, attention to detail, and much more.",
+          "SKILLS": "Skills",
+          "FRONT":"Frontend",
+          "BACK":"Backend",
+          "DATABASES":"Databases",
+          "APPS":"Applications",
+          "OTHER":"Other",
+          "FRAMEWORK":"Frameworks",
+          "PROJECTS": "Projects",
+          "PROJECT1": {
+                    "NAME":"Bootstrap",
+                    "DESCRIPTION": [
+                              "Exercise with an 8-hour time limit",
+                              "HTML5, CSS3, Bootstrap"
+                    ] 
+          },
+          "PROJECT2": {
+                    "NAME":"Bootstrap",
+                    "DESCRIPTION": [
+                              "Exercise with an 8-hour time limit",
+                              "HTML5, CSS3, Bootstrap"
+                    ] 
+          },
+          "PROJECT3": {
+                    "NAME":"React",
+                    "DESCRIPTION": [
+                              "Homework",
+                              "Creation and chaining of components",
+                              "React, JavaScript, HTML5"
+                    ] 
+          },
+          "PROJECT4": {
+                    "NAME":"JavaScript",
+                    "DESCRIPTION": [
+                              "Generation of random color in RGB and HEX model",
+                              "HTML5, CSS3, JavaScript"
+                    ] 
+          },
+          "PROJECT5": {
+                    "NAME":"JavaScript",
+                    "DESCRIPTION": [
+                              "Individual exercise with an 4.5-hour time limit",
+                              "HTML5, CSS3, JavaScript"
+                    ] 
+          },
+          "PROJECT6": {
+                    "NAME":"React",
+                    "DESCRIPTION": [
+                              "Individual exercise with an 8-hour time limit",
+                              "React, JavaScript, HTML5, CSS3"
+                    ] 
+          },
+          "PROJECT7": {
+                    "NAME":"PHP",
+                    "DESCRIPTION": [
+                              "Individual exercise with an 8-hour time limit",
+                              "PHP, MySQL, CSS3, HTML5p"
+                    ] 
+          }
+}

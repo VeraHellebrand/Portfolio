@@ -1,0 +1,92 @@
+[
+          {
+                    "name": "FRONT",
+                    "data": [
+                              {
+                                        "skill": "HTML5",
+                                        "icon": "../../assets/icons/html.png"
+                              },
+                              {
+                                        "skill": "CSS3",
+                                        "icon": "../../assets/icons/css.png"
+                              },
+                              {
+                                        "skill": "JavaScript",
+                                        "icon": "../../assets/icons/js.png"
+                              }
+                    ]
+          },
+          {
+                    "name": "BACK",
+                    "data": [
+                              {
+                                        "skill": "C#",
+                                        "icon": "../../assets/icons/csharp.png"
+                              },
+                              {
+                                        "skill": "Java",
+                                        "icon": "../../assets/icons/java.png"
+                              }
+                    ]
+          },
+          {
+                    "name": "FRAMEWORK",
+                    "data": [
+                              {
+                                        "skill": "React",
+                                        "icon": "../../assets/icons/react.png"
+                              },
+                              {
+                                        "skill": "NodeJS",
+                                        "icon": "../../assets/icons/node.png"
+                              },
+                              {
+                                        "skill": "Angular",
+                                        "icon": "../../assets/icons/angular.png"
+                              },
+                              {
+                                        "skill": "Bootstrap",
+                                        "icon": "../../assets/icons/bootstrap.png"
+                              }
+                    ]
+          },
+          {
+                    "name": "DATABASES",
+                    "data": [
+                              {
+                                        "skill": "MySQL",
+                                        "icon": "../../assets/icons/mysql.png"
+                              },
+                              {
+                                        "skill": "Oracle",
+                                        "icon": "../../assets/icons/oracle.png"
+                              }
+                    ]
+          },
+          {
+                    "name": "APPS",
+                    "data": [
+                              {
+                                        "skill": "Xamarin",
+                                        "icon": "../../assets/icons/xamarin.png"
+                              },
+                              {
+                                        "skill": "Android",
+                                        "icon": "../../assets/icons/android.png"
+                              }
+                    ]
+          },
+          {
+                    "name": "OTHER",
+                    "data": [
+                              {
+                                        "skill": "Git/GitHub",
+                                        "icon": "../../assets/icons/github.png"
+                              },
+                              {
+                                        "skill": "Office365",
+                                        "icon": "../../assets/icons/o365.png"
+                              }
+                    ]
+          }
+]

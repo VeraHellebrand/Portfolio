@@ -1,0 +1,14 @@
+<div class="carousel-container">
+          @for (slide of slides; track $index) {
+                    <div class="carousel-slide"
+                              [class.active]="$index === currentSlide">
+                              <img [src]="slide.src" alt="{{slide.title}}" />
+                              <div class="carousel-caption">
+                                        <h3>{{slide.title}}</h3>
+                                        <p>{{slide.subtitle}}</p>
+                              </div>
+                    </div>
+                    <button class="carousel-control prev" (click)="prevSlide()">&#10094;</button>
+                    <button class="carousel-control next" (click)="nextSlide()">&#10095;</button>    
+          }
+</div>

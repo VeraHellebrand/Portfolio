@@ -1,0 +1,25 @@
+<section class="section" data-section-name="projects">
+   <h2>{{ "PROJECTS" | translate }}</h2>
+   @for (project of data; track $index) {
+   <mat-card class="col">
+      <mat-card-header>
+         {{ project.translate + ".NAME" | translate }}
+      </mat-card-header>
+      <img  class="image" src="{{ project.img }}" alt="Project image">
+      <mat-card-content>
+         @for (paragraph of project.translate + ".DESCRIPTION" | translate; track $index) {
+            <p>{{ paragraph }} </p>
+         }
+      </mat-card-content>
+      <mat-card-actions class="action">
+         <a target="_blank" href="{{ project.git }}">
+            <button mat-button>Git</button>
+         </a>
+         <a target="_blank" href="{{ project.link }}">
+            <button mat-button>Web</button>
+         </a>
+      </mat-card-actions>
+
+   </mat-card>
+   }
+</section>

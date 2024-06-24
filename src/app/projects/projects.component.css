@@ -1,0 +1,43 @@
+section {
+          margin-top: 3rem;
+          text-align: center;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: space-evenly;
+}
+
+h2 {
+          width: 100%;
+          text-align: center;
+}
+
+.col {
+          flex: 1;
+          margin: 10px;
+          width: 300px;
+          display: flex;
+          flex-direction: column;
+}
+
+.image {
+          width: 100%;
+          min-width: 300px;
+          /* max-width: 300px;
+          max-height: 200px; */
+          aspect-ratio: 3/2;
+          object-fit: cover;
+}
+
+.action {}
+
+mat-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+}
+
+
+.action {
+          margin-top: auto;
+}
